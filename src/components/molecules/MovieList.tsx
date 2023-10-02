@@ -10,7 +10,7 @@ const movieListStyles: CSSProperties = {
   flexDirection: "column"
 };
 
-type MovieListProps = {
+export type MovieListProps = {
   movieItemList: Omit<MovieItemProps, "onItemClicked">[];
   selectedMovieId: string;
   setSelectedMovieId: any;
